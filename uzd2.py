@@ -2,7 +2,7 @@
 #Rakstu kodu, lai jautā ievadīt paroli
 #Rakstu kodu ja ir pareiza parole tad piekļuve ir atļauta un pārtrauc cikla darbību
 #Rakstu kodu ja ir piekļuve liegta tad pieprasīt lai ievada paroli vēlreiz 
-
+correct_password = "python123"
 while True:
     entered_password = input ("Lūdzu ievadiet paroli :")
     if entered_password == correct_password:
